@@ -102,3 +102,34 @@ label {
   background-color: var(--success);
   cursor: pointer;
 }
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+
+  font-size: var(--sm);
+  font-family: "Open Sans", sans-serif;
+}
+
+.info {
+  padding-left: 4px;
+
+  color: var(--purple);
+
+  cursor: pointer;
+}
+
+.info-password {
+  margin-left: 44px;
+
+  color: var(--purple);
+}
+
+.info:hover {
+  text-decoration: underline;
+}
+
+.info-password:hover {
+  text-decoration: underline;
+}
