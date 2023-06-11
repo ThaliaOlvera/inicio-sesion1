@@ -53,12 +53,30 @@ form {
   padding-left: 16px;
   margin-bottom: 12px;
   height: 22px;
+
   border-radius: 4px;
   border: none;
   background-color: var(--light);
 }
 
 .input-password {
+  padding: 8px;
+  padding-left: 16px;
   margin-bottom: 12px;
   height: 22px;
+
+  border-radius: 4px;
+  border: none;
+  background-color: var(--light);
+}
+
+.input-checkbox {
+  position: absolute;
+  top: 263px;
+  right: 422px;
+}
+
+label {
+  position: relative;
+  padding-left: 35px;
 }
