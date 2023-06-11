@@ -15,6 +15,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   background-image: url(./imagenes/hombre-negocios-trabajando-portatil-oficina.jpg);
   background-position: center;
+  background-repeat: none;
 }
 
 img {
